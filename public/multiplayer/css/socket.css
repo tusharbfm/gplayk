@@ -1,0 +1,159 @@
+/*-- Room Wrapper Common -- */
+#roomWrapper{ position: fixed; pointer-events:none; display: none; }
+#roomWrapper .innerContent{ width: 80%; margin: 10% auto; text-align: center; pointer-events:auto; color:#FFF; }
+#roomWrapper .nameContent{ margin: 20% auto; }
+#roomWrapper .nameContent input{ margin-bottom:3%; }
+#roomWrapper .fontRoomTitle{ margin-bottom:3%; }
+#roomWrapper .fontNameError{ margin-bottom:3%; }
+#roomWrapper input, #roomWrapper button{ text-align: center; margin-bottom:2%; padding: .5% 2%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+#roomWrapper input{ width: 100%; max-width: 50%; }
+#roomWrapper #actionJoinFriend input{ max-width: 15%; text-align: left; }
+#roomWrapper .roomContent{ margin: 6% auto; }
+.roomContent .room{ float: left; width:35%; }
+.roomContent .message{ float: right; width:60%; }
+.roomContent .action{ width: 100%; text-align: left; margin-top: 2%; }
+.roomContent select, .roomContent textarea{ width:100%; resize: none; padding: 1% 2%; margin:0; border:0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:after { content: "."; visibility: hidden; display: block; height: 0; clear: both;}
+
+#notificationHolder{ position: fixed; pointer-events:none; display: none; }
+#notificationHolder .innerContent{ width: 100%; text-align: center; }
+.notificationBg{ background: #344966; text-align: center; border-radius: 20px; padding: .5% 5%; color:#FFF; border: #FFF solid 5px; position: absolute; bottom: 15%; width: 25%; left: 32.5%; z-index: 5000;}
+
+.forPortrait .innerContent{ width: 75% !important;}
+.forPortrait .nameContent{ margin: 45% auto 0 !important; }
+.forPortrait input{ max-width: 80% !important; }
+.forPortrait #actionJoinFriend input{ max-width: 20% !important; }
+.forPortrait .roomContent{ margin: 15% auto 0 !important; }
+.forPortrait .roomContent .room{ float: none; width:100%; }
+.forPortrait .roomContent .message{ float: none; width:100%; margin: 5% 0; }
+.forPortrait .notificationBg{ width: 40%; left: 25%;}
+
+/*-- Room Wrapper Unique -- */
+.guessthesketch #roomWrapper, .guessthesketch #notificationHolder{ font-family: 'bodo_amatregular'; }
+.guessthesketch #roomWrapper input, .guessthesketch #roomWrapper button{ font-family: 'bodo_amatregular'; }
+.guessthesketch .roomContent select, .guessthesketch .roomContent textarea{ font-family: 'bodo_amatregular'; }
+
+.bingobash #roomWrapper, .bingobash #notificationHolder{ font-family: 'the_bold_fontbold'; }
+.bingobash #roomWrapper input, .bingobash #roomWrapper button{ font-family: 'the_bold_fontbold'; }
+.bingobash .roomContent select, .bingobash .roomContent textarea{ font-family: 'the_bold_fontbold'; }
+
+.spotthedifferences #roomWrapper, .spotthedifferences #notificationHolder{ font-family: 'riffic_free_mediumbold'; }
+.spotthedifferences #roomWrapper input, .spotthedifferences #roomWrapper button{ font-family: 'riffic_free_mediumbold'; }
+.spotthedifferences .roomContent select, .spotthedifferences .roomContent textarea{ font-family: 'riffic_free_mediumbold'; }
+
+.snakesandladders #roomWrapper, .snakesandladders #notificationHolder{ font-family: 'groboldregular'; }
+.snakesandladders #roomWrapper input, .snakesandladders #roomWrapper button{ font-family: 'groboldregular'; }
+.snakesandladders .roomContent select, .snakesandladders .roomContent textarea{ font-family: 'groboldregular'; }
+
+.quizgamevs #roomWrapper{ width:100%; height:100%; margin:auto; position:relative; overflow: hidden; color:#FFF;}
+.quizgamevs #roomWrapper input, .quizgamevs #roomWrapper button{ font-family: 'Exo', sans-serif; }
+.quizgamevs .roomContent select, .quizgamevs .roomContent textarea{ font-family: 'Exo', sans-serif; }
+.quizgamevs #roomWrapper .nameContent{ margin: 16% auto; }
+.quizgamevs #roomWrapper .roomContent{ margin: 4% auto; }
+.quizgamevs .forPortrait .nameContent{ margin: 55% auto 0 !important; }
+.quizgamevs .forPortrait .roomContent{ margin: 23% auto 0 !important; }
+.quizgamevs #notificationHolder{ width:100%; height:100%; position:absolute; overflow: hidden; top: 0; left: 0; color:#FFF;}
+
+.tictactoe #roomWrapper, .tictactoe #notificationHolder{ font-family: 'bpreplaybold'; }
+.tictactoe #roomWrapper input, .tictactoe #roomWrapper button{ font-family: 'bpreplaybold'; }
+.tictactoe .roomContent select, .tictactoe .roomContent textarea{ font-family: 'bpreplaybold'; }
+
+.connectfour #roomWrapper, .connectfour #notificationHolder{ font-family: 'bpreplaybold'; }
+.connectfour #roomWrapper input, .connectfour #roomWrapper button{ font-family: 'bpreplaybold'; }
+.connectfour .roomContent select, .connectfour .roomContent textarea{ font-family: 'bpreplaybold'; }
+
+.wordsearch #roomWrapper, .wordsearch #notificationHolder{ font-family: 'bpreplaybold'; }
+.wordsearch #roomWrapper input, .wordsearch #roomWrapper button{ font-family: 'bpreplaybold'; }
+.wordsearch .roomContent select, .wordsearch .roomContent textarea{ font-family: 'bpreplaybold'; }
+
+.feedmonster #roomWrapper, .feedmonster #notificationHolder{ font-family: 'upheaval_tt_brkregular'; }
+.feedmonster #roomWrapper input, .feedmonster #roomWrapper button{ font-family: 'upheaval_tt_brkregular'; }
+.feedmonster .roomContent select, .feedmonster .roomContent textarea{ font-family: 'upheaval_tt_brkregular'; }
+
+.slotcarchallenge #roomWrapper, .slotcarchallenge #notificationHolder{ font-family: 'bebas_neueregular'; }
+.slotcarchallenge #roomWrapper input, .slotcarchallenge #roomWrapper button{ font-family: 'bebas_neueregular'; }
+.slotcarchallenge .roomContent select, .slotcarchallenge .roomContent textarea{ font-family: 'bebas_neueregular'; }
+
+.playreversi #roomWrapper, .playreversi #notificationHolder{ font-family: 'bpreplaybold'; }
+.playreversi #roomWrapper input, .playreversi #roomWrapper button{ font-family: 'bpreplaybold'; }
+.playreversi .roomContent select, .playreversi .roomContent textarea{ font-family: 'bpreplaybold'; }
+
+.playcheckers #roomWrapper, .playcheckers #notificationHolder{ font-family: 'bpreplaybold'; }
+.playcheckers #roomWrapper input, .playcheckers #roomWrapper button{ font-family: 'bpreplaybold'; }
+.playcheckers .roomContent select, .playcheckers .roomContent textarea{ font-family: 'bpreplaybold'; }
+
+.playchess #roomWrapper, .playchess #notificationHolder{ font-family: 'bpreplaybold'; }
+.playchess #roomWrapper input, .playchess #roomWrapper button{ font-family: 'bpreplaybold'; }
+.playchess .roomContent select, .playchess .roomContent textarea{ font-family: 'bpreplaybold'; }
+
+.wheeloffortunequiz #roomWrapper, .wheeloffortunequiz #notificationHolder{ font-family: 'montheavy_demo'; }
+.wheeloffortunequiz #roomWrapper input, .wheeloffortunequiz #roomWrapper button{ font-family: 'montheavy_demo'; }
+.wheeloffortunequiz .roomContent select, .wheeloffortunequiz .roomContent textarea{ font-family: 'montheavy_demo'; }
+
+.circlejump #roomWrapper, .circlejump #notificationHolder{ font-family: 'bpreplaybold'; }
+.circlejump #roomWrapper input, .circlejump #roomWrapper button{ font-family: 'bpreplaybold'; }
+.circlejump .roomContent select, .circlejump .roomContent textarea{ font-family: 'bpreplaybold'; }
+
+.findme #roomWrapper, .findme #notificationHolder{ font-family: 'milky_bobaregular'; }
+.findme #roomWrapper input, .findme #roomWrapper button{ font-family: 'milky_bobaregular'; }
+.findme .roomContent select, .findme .roomContent textarea{ font-family: 'milky_bobaregular'; }
+
+.findobjects #roomWrapper, .findobjects #notificationHolder{ font-family: 'moon_getheavy'; }
+.findobjects #roomWrapper input, .findobjects #roomWrapper button{ font-family: 'moon_getheavy'; }
+.findobjects .roomContent select, .findobjects .roomContent textarea{ font-family: 'moon_getheavy'; }
+
+.cardattack #roomWrapper, .cardattack #notificationHolder{ font-family: 'russo_oneregular'; }
+.cardattack #roomWrapper input, .cardattack #roomWrapper button{ font-family: 'russo_oneregular'; }
+.cardattack .roomContent select, .cardattack .roomContent textarea{ font-family: 'russo_oneregular'; }
+
+.typeracer #roomWrapper, .typeracer #notificationHolder{ font-family: 'montserratbold'; }
+.typeracer #roomWrapper input, .typeracer #roomWrapper button{ font-family: 'montserratbold'; }
+.typeracer .roomContent select, .typeracer .roomContent textarea{ font-family: 'montserratbold'; }
+
+.playludo #roomWrapper, .playludo #notificationHolder{ font-family: 'bpreplaybold'; }
+.playludo #roomWrapper input, .playludo #roomWrapper button{ font-family: 'bpreplaybold'; }
+.playludo .roomContent select, .playludo .roomContent textarea{ font-family: 'bpreplaybold'; }
+
+.playdominoes #roomWrapper, .playdominoes #notificationHolder{ font-family: 'bpreplaybold'; }
+.playdominoes #roomWrapper input, .playdominoes #roomWrapper button{ font-family: 'bpreplaybold'; }
+.playdominoes .roomContent select, .playdominoes .roomContent textarea{ font-family: 'bpreplaybold'; }
+
+.wartactics #roomWrapper, .wartactics #notificationHolder{ font-family: 'evil_empireregular'; }
+.wartactics #roomWrapper input, .wartactics #roomWrapper button{ font-family: 'evil_empireregular'; }
+.wartactics .roomContent select, .wartactics .roomContent textarea{ font-family: 'evil_empireregular'; }
+
+.findanimals #roomWrapper, .findanimals #notificationHolder{ font-family: 'moon_getheavy'; }
+.findanimals #roomWrapper input, .findanimals #roomWrapper button{ font-family: 'moon_getheavy'; }
+.findanimals .roomContent select, .findanimals .roomContent textarea{ font-family: 'moon_getheavy'; }
+
+.findminime #roomWrapper, .findminime #notificationHolder{ font-family: 'moon_getheavy'; }
+.findminime #roomWrapper input, .findminime #roomWrapper button{ font-family: 'moon_getheavy'; }
+.findminime .roomContent select, .findminime .roomContent textarea{ font-family: 'moon_getheavy'; }
+
+.warship #roomWrapper, .warship #notificationHolder{ font-family: 'kimberleyblack'; }
+.warship #roomWrapper input, .warship #roomWrapper button{ font-family: 'kimberleyblack'; }
+.warship .roomContent select, .warship .roomContent textarea{ font-family: 'kimberleyblack'; }
+
+.warshiproyale #roomWrapper, .warshiproyale #notificationHolder{ font-family: 'kimberleyblack'; }
+.warshiproyale #roomWrapper input, .warshiproyale #roomWrapper button{ font-family: 'kimberleyblack'; }
+.warshiproyale .roomContent select, .warshiproyale .roomContent textarea{ font-family: 'kimberleyblack'; }
+
+.fourcolors #roomWrapper, .fourcolors #notificationHolder{ font-family: 'bpreplaybold'; }
+.fourcolors #roomWrapper input, .fourcolors #roomWrapper button{ font-family: 'bpreplaybold'; }
+.fourcolors .roomContent select, .fourcolors .roomContent textarea{ font-family: 'bpreplaybold'; }
+
+.rainbowbead #roomWrapper, .rainbowbead #notificationHolder{ font-family: 'bpreplaybold'; }
+.rainbowbead #roomWrapper input, .rainbowbead #roomWrapper button{ font-family: 'bpreplaybold'; }
+.rainbowbead .roomContent select, .rainbowbead .roomContent textarea{ font-family: 'bpreplaybold'; }
+
+.playabalone #roomWrapper, .playabalone #notificationHolder{ font-family: 'bpreplaybold'; }
+.playabalone #roomWrapper input, .playabalone #roomWrapper button{ font-family: 'bpreplaybold'; }
+.playabalone .roomContent select, .playabalone .roomContent textarea{ font-family: 'bpreplaybold'; }
+
+.playabalone #roomWrapper, .playabalone #notificationHolder{ font-family: 'bpreplaybold'; }
+.playabalone #roomWrapper input, .playabalone #roomWrapper button{ font-family: 'bpreplaybold'; }
+.playabalone .roomContent select, .playabalone .roomContent textarea{ font-family: 'bpreplaybold'; }
+
+.memorychess #roomWrapper, .memorychess #notificationHolder{ font-family: 'bpreplaybold'; }
+.memorychess #roomWrapper input, .memorychess #roomWrapper button{ font-family: 'bpreplaybold'; }
+.memorychess .roomContent select, .memorychess .roomContent textarea{ font-family: 'bpreplaybold'; }

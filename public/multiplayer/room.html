@@ -1,0 +1,51 @@
+<div id="roomWrapper">
+    <div class="innerContent nameContent">
+        <div id="enterNameTitle" data-fontsize='45' class="resizeFont fontRoomTitle"></div>
+        <input id="userName" name='userName' type="text" data-fontsize='30' class="resizeFont fontRoomInput"><br/>
+        <div class="resizeFont fontNameError" data-fontSize="25" data-lineHeight="30"></div>
+        <button id="enterName" type="button" data-fontsize='25' class="resizeFont fontRoomButton">ENTER</button>
+    </div>
+    
+    <div class="innerContent roomContent">
+        <div id="enterRoomTitle" data-fontsize='50' class="resizeFont fontRoomTitle"></div>
+        <div class="clearfix">
+            <div class="room">
+                <select id="roomlists" data-fontsize='30' class="resizeFont fontRoomLists" size="10">
+                </select>
+                
+                <select id="namelists" data-fontsize='30' class="resizeFont fontRoomLists" size="10">
+                </select>
+            </div>
+            <div class="message">
+                <textarea id="roomLogs" data-fontsize='30' class="resizeFont fontRoomTextarea" rows="10" readonly></textarea>
+            </div>
+        </div>
+        
+        <div class="action">
+            <div id="actionPrivateRoom">
+                <button id="startGame" type="button" data-fontsize='25' class="resizeFont fontRoomButton">START GAME</button>&nbsp;
+                <button id="exitRoom" type="button" data-fontsize='25' class="resizeFont fontRoomButton">EXIT</button>
+            </div>
+            
+            <div id="actionPublicRoom">
+                <button id="joinRoom" type="button" data-fontsize='25' class="resizeFont fontRoomButton">JOIN</button>&nbsp;
+                <button id="joinFriend" type="button" data-fontsize='25' class="resizeFont fontRoomButton">JOIN FRIEND</button>&nbsp;
+                <button id="createRoom" type="button" data-fontsize='25' class="resizeFont fontRoomButton">HOST</button>&nbsp;
+            </div>
+
+            <div id="actionJoinFriend">
+                <button id="cancelJoinFriend" type="button" data-fontsize='25' class="resizeFont fontRoomButton"><</button>&nbsp;
+                <button id="enterPrivateRoom" type="button" data-fontsize='25' class="resizeFont fontRoomButton">ENTER CODE</button>&nbsp;
+                <input id="privateRoomName" name='privateRoomName' type="text" data-fontsize='25' class="resizeFont fontRoomInput roomNameInput">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="notificationHolder">
+    <div class="innerContent">
+        <div class="notificationBg">
+            <div class="resizeFont fontNotification" data-fontSize="20" data-lineHeight="20"></div>
+        </div>
+    </div>
+</div>
